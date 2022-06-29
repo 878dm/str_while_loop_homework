@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    # s = "python 2022"
+    i=0
+    k=0
+    while i<len(s):
+        k+=s[i].isdigit()
+        i+=1
+    return k
+print(main("python55 2022"))
