@@ -12,4 +12,4 @@ def main(s):
         k+=s[i].isdigit()
         i+=1
     return k
-print(main("python55 2022"))
+print(main("python55 22022"))

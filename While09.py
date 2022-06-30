@@ -12,4 +12,4 @@ def main(s):
         sum+=int(s[i])
         i+=1
     return sum
-print(main('535464'))
+print(main('5335464'))

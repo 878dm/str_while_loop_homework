@@ -14,4 +14,4 @@ def main(s):
         i+=1
         
     return x
-print(main("#h#@@@@@ashta@g@@@@@$"))
+print(main("#h#@ashta@g@@@@@$"))

@@ -16,4 +16,4 @@ def main(s):
         i+=1
         
     return x
-print(main("CodeschoolUz"))
+print(main("CsodeschoolUz"))

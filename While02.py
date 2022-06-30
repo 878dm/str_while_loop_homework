@@ -13,4 +13,4 @@ def main(s):
         k+=s[i].isalpha()
         i+=1
     return k
-print(main("python55 2022"))
+print(main("pyton55 2022"))

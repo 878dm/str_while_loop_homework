@@ -16,4 +16,4 @@ def main(s):
             # print(l)
         i+=1
     return l
-print(main("1567534"))
+print(main("15567534"))

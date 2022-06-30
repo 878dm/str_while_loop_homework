@@ -13,4 +13,4 @@ def main(s):
             k+=1
         i+=1
     return k
-print(main("1567534"))
+print(main("1367534"))
