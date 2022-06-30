@@ -6,4 +6,10 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    x=0
+    while i<len(s):
+        x+=s[i].isalpha()
+        i+=1
+    return len(s)-x
+print(main("#hash555tag@$"))
