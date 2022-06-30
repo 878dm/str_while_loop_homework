@@ -6,4 +6,12 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    x=0
+    while i<len(s):
+        if "A"<=s[i] and s[i]<="Z":
+            x+=1
+        i+=1
+        
+    return x
+print(main("CoCCdeschoolUz"))

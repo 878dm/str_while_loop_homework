@@ -10,7 +10,7 @@ def main(s):
     i=0
     k=0
     while i<len(s):
-        k+=s[i].isdigit()
+        k+=s[i].isalpha()
         i+=1
     return k
 print(main("python55 2022"))

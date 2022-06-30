@@ -7,3 +7,13 @@ def main(s):
     Returns:
         int: return answer
     """
+    i=0
+    x=0
+    k=s.lower()
+    while i<len(k):
+        if k[i]!='a' and k[i]!='e' and k[i]!='i' and k[i]!='o' and k[i]!='u':
+            x+=1
+        i+=1
+        
+    return x
+print(main("CodeschoolUz"))

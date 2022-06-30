@@ -9,7 +9,9 @@ def main(s):
     i=0
     x=0
     while i<len(s):
-        x+=s[i].isalpha()
+        if "!"<=s[i] and s[i]<="&":
+            x+=1
         i+=1
-    return len(s)-x
-print(main("#hash555tag@$"))
+        
+    return x
+print(main("#h#@@@@@ashta@g@@@@@$"))
